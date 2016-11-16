@@ -15,19 +15,34 @@ $(document).ready(function() {
     
     
 //1. 
-   
+
+$(".alertme").click(function(){
+	alert('jQuery seems easy so far!');         
+});   
    
 //2.  
-    
+
+$(".clickme").click(function(){
+	$(".clickme").text("I was clicked");         
+});    
     
 //3. 
-   
+
+$(".addStyle").click(function(){
+	$("button").addClass('buttonStyle');         
+});   
 	    
 //4.
- 
+
+$(".addDifferentStyle").click(function(){
+	$(".addDifferentStyle").addClass('addUniqueStyle');         
+}); 
    
 //5. 
 
+$(".removeBtn").click(function(){
+	$("button").removeClass('buttonStyle addUniqueStyle');
+});
 	
 //6.
 	
