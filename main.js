@@ -45,17 +45,31 @@ $(".removeBtn").click(function(){
 });
 	
 //6.
+
+$(".clickToggle").click(function(){         
+  	$('.clickToggle').toggleClass('buttonStyle');         
+});
 	
 	
 //7.
 
-	
+$(".squareBtn").click(function(){         
+  	$('.square').hide();
+});	
 	
 //8.
+
+$(".squareBtn").click(function(){
+	$('.circle').hide();
+});
 
 
 
 //9.
+
+$(".toggleRedSquare").click(function(){
+	$('.redSquare').toggle(1500);
+});
 
 
 
